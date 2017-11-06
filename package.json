@@ -1,0 +1,24 @@
+{
+  "name": "oni-neovim-binaries",
+  "version": "0.0.1",
+  "description": "Downloader for Oni-specific neovim binaries",
+  "main": "lib/index.js",
+  "dependencies": {
+    "github-releases": "^0.4.1",
+    "yauzl": "^2.9.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onivim/oni-neovim-binaries.git"
+  },
+  "author": "Bryan Phelps",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/onivim/oni-neovim-binaries/issues"
+  },
+  "homepage": "http://onivim.io"
+}
