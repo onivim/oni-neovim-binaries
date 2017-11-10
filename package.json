@@ -1,6 +1,6 @@
 {
   "name": "oni-neovim-binaries",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Downloader for Oni-specific neovim binaries",
   "main": "lib/index.js",
   "dependencies": {
