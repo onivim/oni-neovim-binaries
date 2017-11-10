@@ -3,7 +3,9 @@
   "version": "0.0.6",
   "description": "Downloader for Oni-specific neovim binaries",
   "main": "lib/index.js",
-  "dependencies": {},
+  "dependencies": {
+    "oni-release-downloader": "^0.0.5"
+  },
   "devDependencies": {
     "extract-zip": "^1.6.6",
     "github-releases": "^0.4.1",
