@@ -3,14 +3,8 @@
   "version": "0.1.0",
   "description": "Downloader for Oni-specific neovim binaries",
   "main": "lib/index.js",
-  "dependencies": {
-    "oni-release-downloader": "^0.0.5"
-  },
-  "devDependencies": {
-    "extract-zip": "^1.6.6",
-    "github-releases": "^0.4.1",
-    "mkdirp": "^0.5.1",
-    "rimraf": "^2.6.2"
+  "peerDependencies": {
+    "oni-release-downloader": "0.0.8"
   },
   "scripts": {
     "postinstall": "node lib/postinstall.js",
