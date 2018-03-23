@@ -1,10 +1,10 @@
 {
   "name": "oni-neovim-binaries",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Downloader for Oni-specific neovim binaries",
   "main": "lib/index.js",
   "peerDependencies": {
-    "oni-release-downloader": "0.0.8"
+    "oni-release-downloader": "0.0.9"
   },
   "scripts": {
     "postinstall": "node lib/postinstall.js",
