@@ -3,3 +3,11 @@ dist: trusty
 language: node_js
 node_js:
 - '9'
+deploy:
+  provider: npm
+  email: bryphe@outlook.com
+  skip_cleanup: true
+  api_key:
+    secure: aH/EPgFFbrhLcKyIxnUuQY1B2AN3JxXz4DgyUuSN2yU0bfill5pDeOGQOcE1GYFo+LM+13wwUS+9sgBGAmIKJnxYQmf4n1FvAyMv97Q0YzQeZip237gR1ouwGN7QPLsqoxRdp4+j5ShbEGwpf+7nHDiXBcHjF0PLJw6xpDcXiPh6Mk9w+RlVBX6NXMict5tTSdUqvPfq9xfFY6V2DO/ZNUfsFw2fCPwV+GPlMZTQrd1TlqG/mr9mHf4UZjTsJwPHnq/Y9Db6Jyl7wW/8RQ1a8zzV08sq/tqqSmo62mGFq9C+p8CHuPwa1FVZdgS8hPLzloHcYHMgELV+wTNjRw9b7lsiVpQvtPeL3fbUslxjkLqFhaBl9JF6NHoGHCIK9Ud9F44pG3uENu4Pn2JeEc44Avq/LbmYqUZIuDynM3nQ2X4z+h1Kn2CTY0rcf6rmUNa6C4+DPpKPylYpS4tFdkPmQibDZNZZ/gEZPkH9wIezmAJXj+z/k3X3Pb+ckD1YkL8ce1N0NedjDn10VwdSLT93BeLdyd+keneI2/XXl5YKZYNZ3QPfvcI128bowb8YlAj0/9WhnMO2kMfMLqAlGPc4S8R0F1JLnQ0dttsQ2GnL9y00K+C7EGMFUjjmq38EM6f+9GiZaWWfNASgxAogjgcXAy1Ts9xqMzBNfxJyrZx6RE0=
+  on:
+    repo: onivim/oni-neovim-binaries
