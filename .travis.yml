@@ -3,6 +3,8 @@ dist: trusty
 language: node_js
 node_js:
 - '9'
+install: true
+script: echo no build needed
 deploy:
   provider: npm
   email: bryphe@outlook.com
